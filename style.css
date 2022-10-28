@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background: linear-gradient(to right, #009ddd, #05d3f8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+/*Container*/
+.container{
+    height: 30vh;
+    width: 30vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+
+    background: linear-gradient(to left, #3a3132,#0f4571 );
+}
+
+
+.container h2{
+    text-align: center;
+    font-size: 2.5em;
+    text-shadow: 0 0 6px #05d3f8;
+    color: white;
+    padding-bottom: 20px;
+}
+
+.login-area{
+    display: flex;
+    flex-direction: column;
+}
+
+.user,
+.user-password{
+    margin: .2em;
+}
+
+input{
+    box-sizing: content-box;
+    border: 1px solid #05d3f8;
+    outline: none;
+    width: 15vw;
+    height: 23px;
+    border-radius: 3px;
+    text-align: center;
+}
+
+.senha{
+    font-size: .75em;
+    margin: .2em;
+}
+
+.senha-button{
+    text-decoration: none;
+    color: white;
+    opacity: 0.7;
+    padding: 5px 0;
+}
+
+#submit-button{
+    margin: .2em;
+    padding: 5px 7px;
+    border-radius: 4px;
+    background-color: #386dbd;
+    border: 1px solid #386dbd;
+}
+
+#submit-button a{
+    color: white;
+    text-decoration: none;
+}
